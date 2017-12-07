@@ -40,6 +40,7 @@ gem 'faker'
 gem "paperclip", "~> 4.2"
 gem 'rest-client'
 gem 'rails_admin', '~> 1.2'
+gem 'httparty', '~> 0.13.7'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

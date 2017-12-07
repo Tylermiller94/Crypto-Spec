@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get 'about', to: 'pages#about'
   get 'products', to: 'products#index'
   get 'orders', to: 'order_items#index'
+  get 'bitcoin', to: 'bitcoin#index'
   devise_for :users
   get 'hello_world', to: 'hello_world#index'
   root to: "pages#home"
